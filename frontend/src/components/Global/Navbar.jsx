@@ -115,6 +115,7 @@ const Navbar = () => {
     { path: "/contract", label: "Contract" },
     { path: "/docs", label: "Docs" },
     { path: "/transfer", label: "Transfer" },
+    { path: "/tasks", label: "Tasks" },
     ...(walletData.address ? [{ path: "/user", label: "Profile" }] : []),
   ];
 
